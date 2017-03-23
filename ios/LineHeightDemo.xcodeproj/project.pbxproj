@@ -36,6 +36,14 @@
 		2DCD954D1E0B4F2C00145EB5 /* LineHeightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LineHeightDemoTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		C3D756461E847B7200D248A7 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D756441E847B7200D248A7 /* OpenSans.ttf */; };
+		C3D756471E847B7200D248A7 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D756441E847B7200D248A7 /* OpenSans.ttf */; };
+		C3D756481E847B7200D248A7 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D756441E847B7200D248A7 /* OpenSans.ttf */; };
+		C3D756491E847B7200D248A7 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D756441E847B7200D248A7 /* OpenSans.ttf */; };
+		C3D7564A1E847B7200D248A7 /* OpenSansAdjusted.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D756451E847B7200D248A7 /* OpenSansAdjusted.ttf */; };
+		C3D7564B1E847B7200D248A7 /* OpenSansAdjusted.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D756451E847B7200D248A7 /* OpenSansAdjusted.ttf */; };
+		C3D7564C1E847B7200D248A7 /* OpenSansAdjusted.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D756451E847B7200D248A7 /* OpenSansAdjusted.ttf */; };
+		C3D7564D1E847B7200D248A7 /* OpenSansAdjusted.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3D756451E847B7200D248A7 /* OpenSansAdjusted.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,6 +263,8 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		C3D756441E847B7200D248A7 /* OpenSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenSans.ttf; path = ../android/app/src/main/assets/fonts/OpenSans.ttf; sourceTree = "<group>"; };
+		C3D756451E847B7200D248A7 /* OpenSansAdjusted.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenSansAdjusted.ttf; path = ../android/app/src/main/assets/fonts/OpenSansAdjusted.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,6 +402,8 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				C3D756441E847B7200D248A7 /* OpenSans.ttf */,
+				C3D756451E847B7200D248A7 /* OpenSansAdjusted.ttf */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -832,6 +844,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D756471E847B7200D248A7 /* OpenSans.ttf in Resources */,
+				C3D7564B1E847B7200D248A7 /* OpenSansAdjusted.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +855,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				C3D756461E847B7200D248A7 /* OpenSans.ttf in Resources */,
+				C3D7564A1E847B7200D248A7 /* OpenSansAdjusted.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,6 +865,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				C3D756481E847B7200D248A7 /* OpenSans.ttf in Resources */,
+				C3D7564C1E847B7200D248A7 /* OpenSansAdjusted.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,6 +874,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D756491E847B7200D248A7 /* OpenSans.ttf in Resources */,
+				C3D7564D1E847B7200D248A7 /* OpenSansAdjusted.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
